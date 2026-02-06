@@ -163,7 +163,7 @@ $installSettings = $tempInstallSettings;
 //
 // The quick_install() method does all of this automatically.
 
-$installer = new Installer($installSettings,  new SystemLogger());
+$installer = new Installer($installSettings, new SystemLogger());
 
 // Run the installer and check if it succeeded
 if (! $installer->quick_install()) {
